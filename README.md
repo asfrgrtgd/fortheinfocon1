@@ -34,7 +34,13 @@
 1. [CUDA Toolkit公式サイト](https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows)にアクセス
 2. お使いのWindowsバージョンに合わせたCUDA Toolkitをダウンロード
 3. インストーラーを実行（デフォルト設定推奨）
-4. インストール完了後、コマンドプロンプトで以下のコマンドを実行して確認：
+4. [cuDNN公式サイト](https://developer.nvidia.com/rdp/cudnn-archive)にアクセス
+5. 「Download cuDNN v8.9.7 (December 5th, 2023), for CUDA 11.x」をクリックしてcuda11.8に対応したcuDNNをダウンロード
+6. 解凍したcuDNNの中身をすべて次のフォルダに移す
+```
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin
+```
+7. コマンドプロンプトで以下のコマンドを実行して確認：
 ```bash
 nvcc --version
 ```
@@ -120,7 +126,7 @@ python src/main.py
 #### 方法4: .exeファイルを実行
 付属の`main.exe`をダブルクリックで実行できます。
 
-## 5.実行ファイルの作成
+## 5. 実行ファイルの作成
 flet packコマンドを使ってワンファイル化します。実行後は`dist`フォルダ内に`main.exe`が作られます。
 ```bash
 conda activate video_transcribe
