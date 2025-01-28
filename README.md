@@ -31,7 +31,7 @@
 
 **注意**: この手順は、NVIDIA GPUをお持ちの方のみ対象です。セットアップが複雑な場合は省略可能ですが、その場合CPUでの実行となり、文字起こしの処理速度が遅くなります。
 
-1. [CUDA Toolkit公式サイト]([https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows))にアクセス
+1. [CUDA Toolkit公式サイト]((https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows))にアクセス
 2. お使いのWindowsバージョンに合わせたCUDA Toolkitをダウンロード
 3. インストーラーを実行（デフォルト設定推奨）
 4. インストール完了後、コマンドプロンプトで以下のコマンドを実行して確認：
