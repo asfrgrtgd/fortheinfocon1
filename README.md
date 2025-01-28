@@ -99,10 +99,12 @@ pip install -r requirements.txt
 1. VideoTranscribe.zipを解凍
 2. 展開したフォルダ内の構成を確認：
    - `src/` - ソースコードフォルダ
-   - `setup_guide.md` - セットアップ用のガイド
+   - `iamges/` - ガイド用の画像フォルダ
+   - `README.md` - セットアップ用のガイド
    - `requirements.txt` - 必要なパッケージリスト
    - `run.bat` - アプリケーション実行用batファイル
    - `main.exe` - アプリケーション実行用exeファイル
+
 
 ## 4. アプリケーションの実行
 
