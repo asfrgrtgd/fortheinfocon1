@@ -1,0 +1,5 @@
+flet==0.25.1
+flet_video
+faster-whisper
+google-generativeai
+moviepy==1.0.3
